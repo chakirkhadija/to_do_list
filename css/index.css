@@ -20,6 +20,7 @@
 }
 .list-group-item{
     padding-left: 10px;
+    border-radius: 10px;
 }
 #write{
     height: 80px;
@@ -31,5 +32,9 @@ i{
 }
 
 #manav{
+    border-radius: 10px;
+}
+.list-group-item span{
+    padding: 5px 250px 5px 20px;
     border-radius: 10px;
 }
