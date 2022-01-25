@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Plans | To Do List</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3" id="core">
+                <h1>My First To Do App</h1>
+            </div>
+            <div class="col-lg-8 offset-lg-2" contenteditable="" id="write"></div>
+            <div class="col-lg-6 offset-lg-3" id="manav">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid" id="manage">
+                      <a class="navbar-brand" href="#">Manage Tasks</a>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search your task" aria-label="Search" id="inpu">
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <div class="col-lg-10 offset-lg-1 " >
+            <ul class="list.group">
+                <li class="list-group-item tasks">
+                    <span>tasks number 1</span>
+                    <div class="icons">
+                        <i class="fas fa-trash-alt trash" title="delete"></i>
+                        <i class="fas fa-user-edit edit" title="edit"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-10 offset-lg-1 " >
+            <ul class="list.group">
+                <li class="list-group-item">
+                    <span>tasks number 2</span>
+                    <div class="icons">
+                        <i class="fas fa-trash-alt trash"></i>
+                        <i class="fas fa-user-edit edit"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-10 offset-lg-1 " >
+            <ul class="list.group">
+                <li class="list-group-item">
+                    <span>tasks number 3</span>
+                    <div class="icons">
+                        <i class="fas fa-trash-alt trash"></i>
+                        <i class="fas fa-user-edit edit"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-10 offset-lg-1 " >
+            <ul class="list.group">
+                <li class="list-group-item">
+                    <span>tasks number 4</span>
+                    <div class="icons">
+                        <i class="fas fa-trash-alt trash"></i>
+                        <i class="fas fa-user-edit edit"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-10 offset-lg-1 " >
+            <ul class="list.group">
+                <li class="list-group-item">
+                    <span>tasks number 5</span>
+                    <div class="icons">
+                        <i class="fas fa-trash-alt trash"></i>
+                        <i class="fas fa-user-edit edit"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="row"></div>
+        <div class="row"></div>
+    </div>
+    <div class="col-lg-6 offset-lg-3">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Add New Task</button>
+      </div>
+</body>
+<script src='js/index.js'></script>
+</html>

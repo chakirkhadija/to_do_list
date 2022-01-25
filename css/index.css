@@ -1,0 +1,35 @@
+#core h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(158, 157, 157);
+    margin-bottom: 20px;
+}
+.tasks{
+    margin-top: 15px;
+}
+.icons{
+    display: inline;
+    float: right;
+    font-size: 20px;
+}
+
+.trash{
+    color: red;
+}
+.edit{
+    color: blue;
+}
+.list-group-item{
+    padding-left: 10px;
+}
+#write{
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+i{
+    margin-right: 15px;
+}
+
+#manav{
+    border-radius: 10px;
+}
